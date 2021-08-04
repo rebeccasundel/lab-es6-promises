@@ -38,7 +38,13 @@ addFood(mashPotatoes[0], '#mashPotatoes').then(() => {
   // ... your code here
   addFood(mashPotatoes[1], '#mashPotatoes')
 });
+addFood(mashPotatoes[0], '#mashPotatoes')
+   .then(() => addFood(mashPotatoes[1], '#mashPotatoes'))
+   .then(() => addFood(mashPotatoes[2], '#mashPotatoes'))
+   .then(() => addFood(mashPotatoes[3], '#mashPotatoes'))
+   .then(() => addFood(mashPotatoes[4], '#mashPotatoes'))
 
+   
 // Iteration 3 using async/await
 
   async function makeFood(step) {
