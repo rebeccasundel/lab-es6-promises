@@ -63,3 +63,10 @@ addFood(mashPotatoes[0], '#mashPotatoes')
     
   }
   makeFood(eachStep);
+
+  let allPromise =
+ Promise.all
+ allPromise.then(() => {
+     alert('Dinner is served')
+
+ })
